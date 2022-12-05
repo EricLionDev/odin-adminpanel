@@ -8,21 +8,160 @@
     <title>Admin Panel</title>
   </head>
   <body>
+    <!-- Sidebar -->
     <div class="sidebar">
-      <div class="logo"></div>
-      <div class="sidebar-nav"></div>
-      <div class="sidebar-util"></div>
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="imgs/dashboard_FILL1_wght400_GRAD0_opsz48.png"
+          alt=""
+          srcset=""
+        />
+        <p class="logo-txt">Dashboard</p>
+      </div>
+      <div class="sidebar-nav">
+        <ul class="sidebar-nav-container">
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/home_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Home</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/account_circle_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Profile</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/mail_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Messages</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/history_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />History</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/checklist_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Tasks</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/diversity_3_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Communities</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-util">
+        <ul class="sidebar-nav-container">
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/settings_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Settings</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/contact_support_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Support</a
+            >
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-item"
+              ><img
+                class="logo sidebar-logo"
+                src="imgs/verified_user_FILL1_wght400_GRAD0_opsz48.png"
+                alt=""
+              />Privacy</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
+
     <div class="site-container">
+      <!-- Nav/Header -->
       <div class="header-container">
-        <div class="nav-bar">
-          <div class="nav-bar-item"></div>
-          <div class="nav-bar-item"></div>
-          <div class="nav-bar-item"></div>
-          <div class="nav-bar-item"></div>
+        <!-- searchbar -->
+        <div class="nav-bar trans-bg">
+          <div class="search-bar trans-bg center">
+            <button class="img-btn trans-bg">
+              <img
+                class="search-img trans-bg"
+                src="imgs/search_FILL0_wght400_GRAD0_opsz48.png"
+                alt=""
+                srcset=""
+              />
+            </button>
+
+            <input type="text" class="search-input trans-bg center" />
+          </div>
+        </div>
+        <!-- account area -->
+
+        <div class="account-area trans-bg align-right">
+          <button class="img-btn trans-bg">
+            <img
+              class="search-img trans-bg"
+              src="imgs/notifications_FILL0_wght400_GRAD0_opsz48.png"
+              alt=""
+              srcset=""
+            />
+          </button>
+
+          <img src="imgs/catpfp1.png" alt="" class="icon-img trans-bg" />
+
+          <p class="user-name trans-bg">Pickles Pawson</p>
+        </div>
+
+        <!-- welcome area -->
+        <div class="welcome-area trans-bg">
+          <img src="imgs/catpfp1.png" alt="" class="welcome-img trans-bg" />
+          <div class="welcome-msg trans-bg">
+            <p class="welcome-intro trans-bg">Hi there,</p>
+            <p class="welcome-name trans-bg">Pickles Pawson (@pickles)</p>
+          </div>
+        </div>
+
+        <!-- new post area -->
+        <div class="post-area trans-bg align-right">
+          <button class="post-btn trans-bg">New</button>
+          <button class="post-btn trans-bg">Upload</button>
+          <button class="post-btn trans-bg">Share</button>
         </div>
       </div>
-
+      <!-- Content Area -->
       <div class="content-area"></div>
     </div>
   </body>
